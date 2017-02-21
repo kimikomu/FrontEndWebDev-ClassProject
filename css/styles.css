@@ -129,6 +129,9 @@ img {
   padding: 40px 20px;
 }
 
+#what {
+  text-align: right;
+}
 
 /* ==========================================================================
    HEADER & HERO
@@ -207,15 +210,15 @@ nav a:hover {
    ========================================================================== */
 
 .section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
 .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -376,3 +379,19 @@ input.button:hover {
 .red {
   color: #871719;
 }
+
+footer {
+  height: 130px;
+  background-color: #262626;
+}
+
+footer p {
+  color: white;
+}
+
+footer a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
